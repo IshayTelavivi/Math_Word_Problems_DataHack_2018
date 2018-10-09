@@ -52,7 +52,8 @@ For example:
 
 ### Result
 
-We managed to predict correctly 17 problems (out of 1507 in the test set). Although this is a low accuracy, the fact that we narrowed the problems to a specific type, and that it was our first seq2seq model, we considerקג the outcome as success.
+We managed to predict correctly 17 problems (out of 1507 in the test set). Although this is a low accuracy, the fact that we narrowed the problems to a specific type, and that it was our first seq2seq model, we considered the outcome as success.
+(The winning team acheived 245 correct answers)
 
 
 
