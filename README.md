@@ -38,9 +38,9 @@ Eventually we got left with 28 questions only, based on the following funnel:
 Since we focused on similar type of problems/equations, we realized that if there is an exact correspondence between the numbers in the text and those in the equations, then we can generate more problems with the exact same structure. Actually we could generate any number of questions we wanted. We multiplied the data by x1000, so eventually the model ran with roughly 30,000 questions.
 
 Of course the numbers were generated randomly, to get similar but not identical ones.
-
-
-
+ 
+ 
+ 
 **Equation Representation**
 
 We chose to represent our equations by their linear parmaneters as a vectorized representation (as mentioned we had only linear problems). We believed that it will be easiler for the network to learn this kind of representation. 
@@ -55,5 +55,13 @@ For example:
 We managed to predict correctly 17 problems (out of 1507 in the test set). Although this is a low accuracy, the fact that we narrowed the problems to a specific type, and that it was our first seq2seq model, we considerקג the outcome as success.
 
 
+
+
+### Additional Thoughts
+
+Because we had limited time, the following ideas did not come into action, but would have if we had more time.
+
+1. Extracting the numbers from the problems/equations, replacing them with tokens, and letting the model train on the "naked" version. Then bring these number back to the output sequence
+2. Use attention as part of the neural network
 
 
