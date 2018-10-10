@@ -23,7 +23,7 @@ Additional challenges we faced:
 
 **Focus on specific questions**
 
-Since there were many types of questions, we believed that if we focus on one set of questions, that roughly have the same characteristics, that may help us get correct predictions, however for only this type of questions (high recall / low precision). The questions we focused on were:
+Since there were many types of questions, we believed that if we focus on one set of questions, that roughly have the same characteristics, that may help us get correct predictions, however for only this type of questions (sort of high precision / low recall). The questions we focused on were:
 * Simple – vocabulary, context, explicit
 * Linear – Allows simple representation (embedding) for the equations
 * Explicit – No complex tokens (e.g. arithmetical progression)
