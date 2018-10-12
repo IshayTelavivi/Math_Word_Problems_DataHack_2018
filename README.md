@@ -9,7 +9,7 @@ Example problems:
 
 <img width="619" alt="example_questions" src="https://user-images.githubusercontent.com/35026597/46653023-8cfd6e80-cbad-11e8-891f-3c016fb2f0f7.png">
 
-Our main challenge was that non of our team members had any experience with seq2seq models, and in general very limited knowledge in Deep Learning, which required us to learn these fundementals in a very short time.
+**Our main challenge** was that non of our team members had any experience with seq2seq models, and in general very limited knowledge in Deep Learning, which required us to learn these fundementals in a very short time.
 
 Additional challenges we faced:
 * Broad range of math problem types
@@ -66,3 +66,4 @@ Because we had limited time, the following ideas did not come into action, but w
 2. Use attention as part of the neural network
 
 
+# To be continued...
